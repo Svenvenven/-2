@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* чтоб обратиться ко всем элементам (*)      */
+/* *{
+padding: 0;
+margin: 0;
+} */
+body{
+
+    background: rgb(207, 194, 169);
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+    /*font: normal 16px 'roboro' sans-serif;*/
+
+    /*font-family: Cambria, Cochin, Feorgia, Times, 'Times New Roman', serif;*/
+
+}
+.container h1{
+    text-align: center;
+}
+
+/* Блок сылок */
+a{
+    color: black;
+    text-decoration: none; /*подчёркивание */
+}
+
+/* Разбираем селектор наидение (:hover) */
+a:hover {
+text-decoration: underline;
+}
+
+/* При клике меняет цвет(:active) */
+a:active{
+    color: orange;
+}
+
+/* Демонстрирует что на эту кнопку нажимали(:visited) */
+a:visited{
+    color: orangered;
+}
+
+.avatar{
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 20px orange;
+}
+.avatar1{
+    width: 340px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 20px orange;
+}
+.avatar2{
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 20px orange;
+}
+
+.info {
+    display: ;
+    margin-bottom: 20px;
+    /* color: rgb(24, 50, 73); */
+    /* margin: 0; */
+    /* font-style: italic; */
+    /* text-decoration: underline; */
+    /* text-transform: capitalize; */
+    /* letter-spacing: 1px;*/
+    /* word-spacing: 3px; */
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+    
+}
+ .social {
+/*background: orange;*/
+/*padding: 20px; отступ контента от края блока*/
+
+ }
+ .social h2{
+    margin-bottom: px;
+ }
+
+  /*  .box-model >div{
+    float: left;
+    background: orange;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+ }*/
+ 
+.bg-yellow{
+    background: #fff9dc;
+}
+
+.bg-green{
+    background: #e5ffe7;
+}
+ .card {
+    /* Настройка отступа со всех краёв padding: ;  */
+    padding: 15px 20px;
+    /* Цвет блоку background: ; */
+    /* background: rgb(132, 128, 120); */
+    /* Отступ между блоками margin-bottom; */
+    margin-bottom: 20px;
+    /* Добавление скругления с помошью своества border-radius:; */
+    border-radius: 20px;
+ }
+
+ .tablee{
+    /* Ширина во весь экран width: ; */
+    width: 100%;
+ }
+
+ /* Сделали пробелы между мтрочками */
+ .tablee td{
+    padding-bottom: 10px ;
+ }
+
+ .tablee td:nth-child(2),
+ .tablee td:nth-child(3){
+    color:#86898f;
+ }
+ 
+ .contact h2{
+    text-align: center;
+ }
+ 
+ .form-group label{
+    display: block;
+    font-size: 20px;
+    color: #86898f;
+ }
+/* Чтоб задать точно такиеже функции другому тегу его ввоидим после запятой
+Приер:
+.form-group input,
+.form-group textarea{ */
+ .form-group input,
+ .form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    /* Удаления контура яшеек для вода информаци (border:;)  */
+    border: none;
+    /* Водим своиство (background:transform:;) чтоб все \input\ были прозрачныие  */
+    background: transparent; 
+    border-bottom: 1px solid rgb(33, 165, 163);
+    color: #000;
+    padding: 20px 0 10px;
+    /* Уберает выделение когда кликаешь мышкой в окно для ввода информации
+    (quotes: none;) */
+    outline: none;
+    font-family: inherit;
+     
+}
+
+.row{
+    display: flex ;
+    margin-bottom: 30px;
+}
+
+.row>.form-group{
+    width: 50%;
+    margin-right: 10px;
+}
+
+.btn{
+    background: #000;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border: none;
+    border-radius: 13px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn.hover{
+    opacity: 1122;
+}
+
+/* .position{
+border: 4px solid orange;
+margin-top: 40px;
+padding: 20px;
+}
+
+.box{
+    position: static;
+    width: 50px;
+    height: 50px;
+    background: greenyellow;
+} */
+
+.cont{
+    max-width:1200px;
+    margin: auto;
+}
+.avatar9,.avatar8,.avatar10,.avatar11,.avatar12,.avatar7,.avatar5{
+    width: px;
+    border-radius: 50px;
+    box-shadow: 6px 6px 20px rgb(255, 255, 255);
+}
